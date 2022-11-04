@@ -29,7 +29,7 @@
     for ($i = 0; $i < $strLength; $i++) {
       $arrayNama[$i] = $nama[$i];
     }
-    // print_r(join('',$array));
+    // print_r(join('',$arrayNama));
 
     $index = $_POST['index'];
     if (array_key_exists($index, $arrayNama)) {
